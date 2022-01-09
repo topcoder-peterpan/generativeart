@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<!-- Title, Icon and Website URL -->
 	<title>Your App Title</title>
 	<link rel="shortcut icon" href="/public/imgs/icon.jpg" type="image/x-icon">
 	<link rel="canonical" href="https://your-website-url.com">
-	
+
 	<!-- Default Meta Tags -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<meta name="description" content="This is a npm react-app-react-express website."/>
-	<meta name="keywords" content="your, keywords, react-app-react-express, npm"/>
-	<meta name="author" content="Your Name"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="This is a npm react-app-react-express website." />
+	<meta name="keywords" content="your, keywords, react-app-react-express, npm" />
+	<meta name="author" content="Your Name" />
 
 	<!-- Social media integration when sharing -->
-	<meta property="og:title" content="Your Social Media Website Title"/>
-	<meta property="og:image" content="/public/imgs/icon.jpg"/>
-	<meta property="og:url" content="https://your-website-url.com"/>
-	<meta property="og:site_name" content="Your Website Name"/>
-	<meta property="og:description" content="This is a npm react-app-react-express website."/>
-	<meta name="twitter:title" content="Your Social Media Website Title"/>
-	<meta name="twitter:image" content="/public/imgs/icon.jpg"/>
-	<meta name="twitter:url" content="https://your-website-url.com"/>
-	<meta name="twitter:card" content="This is a npm react-app-react-express website."/>
+	<meta property="og:title" content="Your Social Media Website Title" />
+	<meta property="og:image" content="/public/imgs/icon.jpg" />
+	<meta property="og:url" content="https://your-website-url.com" />
+	<meta property="og:site_name" content="Your Website Name" />
+	<meta property="og:description" content="This is a npm react-app-react-express website." />
+	<meta name="twitter:title" content="Your Social Media Website Title" />
+	<meta name="twitter:image" content="/public/imgs/icon.jpg" />
+	<meta name="twitter:url" content="https://your-website-url.com" />
+	<meta name="twitter:card" content="This is a npm react-app-react-express website." />
 
 	<!-- CSS Files -->
 	<!-- <link rel="stylesheet" type="text/css" href="/public/css/style.css"> -->
@@ -32,18 +33,23 @@
 	<link rel="stylesheet" type="text/css" href="/public/custom/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="/public/custom/custom.css">
 	<!-- end custom  -->
+	<script>
+		if (window.navigator.userAgentData.mobile) {
+			screen.orientation.lock('landscape');
+		}
+	</script>
 </head>
 
 <body>
 	<!-- Error Handling if JS is not enabled -->
 	<noscript>Please enable javascript in order to view this website.</noscript>
-	
+
 	<!-- Your App -->
 	<div id="root">
 	</div>
 
 	<!-- JS Files -->
-    <div id="scriptDiv">
+	<div id="scriptDiv">
 		<div id="fill"></div>
 		<header class="seed-container"></header>
 		<script id="dynamic" src=""></script>
@@ -52,11 +58,12 @@
 	<script type="text/javascript" src="/public/js/index.js"></script>
 	<script type="text/javascript" src="/public/js/bundle.js"></script>
 	<style>
-	  canvas {
-		margin: auto;
-		display: block;
-		box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.15);
-	  }
+		canvas {
+			margin: auto;
+			display: block;
+			box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.15);
+		}
 	</style>
 </body>
+
 </html>
